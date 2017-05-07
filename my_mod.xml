@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>  
+ <remote  name="ex"
+           fetch="https://github.com/AospExtended"
+           revision="7.x" /> 
+  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" groups="pdk-fs" remote="ex" />
+  <project path="packages/apps/AEXOTA" name="platform_packages_apps_AEXOTA" groups="pdk-fs" remote="ex" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="ex" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="ex" />
+  <project path="external/google" name="AOSIP/platform_external_google" remote="github" revision="n7x" />
+  <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="n7x" />
+</manifest>
