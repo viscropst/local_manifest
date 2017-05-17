@@ -2,7 +2,8 @@
 <manifest>
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns/"
-           review="gerrit.dirtyunicorns.com" />
+           review="gerrit.dirtyunicorns.com"
+           revision="n7x" />
   <remote  name="ex"
            fetch="https://github.com/AospExtended"
            revision="7.x" />
