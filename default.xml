@@ -13,6 +13,8 @@
   <remote  name="aosp-jf"
            fetch="https://github.com/AOSP-JF-MM"
            revision="aosp-7.1.2" />
+  <default remote=".."      
+     />
 
   <project path="packages/apps/Settings/aicp" name="packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Settings/aosp-jf" name="packages_apps_Settings" groups="pdk-fs" remote="aosp-jf" />
