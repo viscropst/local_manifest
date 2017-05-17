@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="du"
+           fetch="https://github.com/DirtyUnicorns/"
+           review="gerrit.dirtyunicorns.com" />
+  <remote  name="ex"
+           fetch="https://github.com/AospExtended"
+           revision="7.x" />
+  <remote  name="aicp"
+           fetch="https://github.com/AICP/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/n7.1" />
+  <remote  name="aosp-jf"
+           fetch="https://github.com/AOSP-JF-MM"
+           revision="aosp-7.1.2" />
+
+  <project path="packages/apps/Settings/aicp" name="packages_apps_Settings" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/Settings/aosp-jf" name="packages_apps_Settings" groups="pdk-fs" remote="aosp-jf" />
+  <project path="packages/apps/Settings/ex" name="packages_apps_Settings" groups="pdk-fs" remote="ex" />
+  <project path="packages/apps/Settings/du" name="packages_apps_Settings" groups="pdk-fs" remote="du" />
+</manifest>
