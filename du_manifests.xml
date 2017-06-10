@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--DU devices-->  
+    <!--<project path="device/xiaomi/libra" name="viscropst/device_xiaomi_libra" remote="github" revision="n7x-caf" />-->
+    <project path="device/xiaomi/libra" name="csolanol/device_xiaomi_libra" remote="github" revision="n7x-caf" />
+    <!--<project path="kernel/xiaomi/libra" name="Demon000/kernel_xiaomi_libra" remote="github" revision="cm-14.1" />-->
+    <project path="kernel/xiaomi/msm8992" name="Andropax/android_kernel_xiaomi_msm8992" remote="github" revision="RR-7.1" />
+    <project path="vendor/xiaomi" name="csolanol/vendor_xiaomi" remote="github" revision="n7.1-miui" />
+     <project path="prebuilts/snapdragon/llvm-3.8" name="Mokee/android_prebuilts_snapdragon_llvm-3.8" remote="github" revision="mkn-mr1"/>
+    <!--DU cafs-->
+    <project path="system/qcom" name="android_system_qcom" remote="du" revision="n7x-caf"/>
+    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="du" revision="n7x-caf"/>
+    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="du" revision="n7x-caf"/>
+    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="du" revision="n7x-caf"/>
+    <project path="external/connectivity" name="android_external_connectivity" remote="du" revision="n7x-caf"/>
+    <project path="external/stlport" name="android_external_stlport" remote="du" revision="n7x-caf"/>
+    
+</manifest>
